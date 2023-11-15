@@ -1,0 +1,228 @@
+Sep 26 17:20 : player: played "Machine Gun Kelly - title track.mp3"
+Sep 26 17:39 : config: option 'device' on line 14 was not recognized
+Sep 26 17:39 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Sep 26 18:36 : player: played "Machine Gun Kelly - title track.mp3"
+Sep 26 19:06 : config: option 'device' on line 14 was not recognized
+Sep 26 19:06 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Sep 27 02:22 : player: played "Machine Gun Kelly - title track.mp3"
+Sep 27 05:52 : config: option 'device' on line 14 was not recognized
+Sep 27 05:52 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Sep 30 00:44 : player: played "Machine Gun Kelly - title track.mp3"
+Sep 30 00:45 : config: option 'device' on line 14 was not recognized
+Sep 30 00:45 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Sep 30 15:22 : player: played "Machine Gun Kelly - title track.mp3"
+Sep 30 15:23 : config: option 'device' on line 14 was not recognized
+Sep 30 15:23 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 02 19:11 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 02 19:12 : config: option 'device' on line 14 was not recognized
+Oct 02 19:12 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 03 16:44 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 03 16:50 : config: option 'device' on line 14 was not recognized
+Oct 03 16:50 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 03 20:00 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 03 20:00 : config: option 'device' on line 14 was not recognized
+Oct 03 20:00 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 04 10:33 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 04 17:55 : config: option 'device' on line 14 was not recognized
+Oct 04 17:55 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 04 12:40 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 04 12:40 : config: option 'device' on line 14 was not recognized
+Oct 04 12:40 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 04 13:01 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 04 15:05 : config: option 'device' on line 14 was not recognized
+Oct 04 15:05 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 05 19:16 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 05 19:17 : config: option 'device' on line 14 was not recognized
+Oct 05 19:17 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 06 02:25 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 06 02:30 : config: option 'device' on line 14 was not recognized
+Oct 06 02:30 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 06 02:32 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 06 09:41 : config: option 'device' on line 14 was not recognized
+Oct 06 09:41 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 07 12:04 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 07 12:41 : config: option 'device' on line 14 was not recognized
+Oct 07 12:41 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 08 03:09 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 08 16:06 : config: option 'device' on line 14 was not recognized
+Oct 08 16:06 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 09 02:56 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 09 12:44 : config: option 'device' on line 14 was not recognized
+Oct 09 12:44 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 09 15:39 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 09 19:57 : config: option 'device' on line 14 was not recognized
+Oct 09 19:57 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 10 14:35 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 10 14:35 : config: option 'device' on line 14 was not recognized
+Oct 10 14:35 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 10 14:36 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 10 20:00 : config: option 'device' on line 14 was not recognized
+Oct 10 20:00 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 11 03:59 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 12 07:26 : config: option 'device' on line 14 was not recognized
+Oct 12 07:26 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 12 04:39 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 12 04:40 : config: option 'device' on line 14 was not recognized
+Oct 12 04:40 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 12 18:49 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 12 18:49 : config: option 'device' on line 14 was not recognized
+Oct 12 18:49 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 12 21:52 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 12 21:53 : config: option 'device' on line 14 was not recognized
+Oct 12 21:53 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 13 04:17 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 13 04:18 : config: option 'device' on line 14 was not recognized
+Oct 13 04:18 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 13 21:12 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 13 21:13 : config: option 'device' on line 14 was not recognized
+Oct 13 21:13 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 15 03:42 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 15 03:43 : config: option 'device' on line 14 was not recognized
+Oct 15 03:43 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 16 17:20 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 16 17:25 : config: option 'device' on line 14 was not recognized
+Oct 16 17:25 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 18 01:31 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 18 01:31 : config: option 'device' on line 14 was not recognized
+Oct 18 01:31 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 20 22:36 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 20 22:39 : config: option 'device' on line 14 was not recognized
+Oct 20 22:39 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 23 09:57 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 23 09:58 : config: option 'device' on line 14 was not recognized
+Oct 23 09:58 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 24 14:29 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 24 14:30 : config: option 'device' on line 14 was not recognized
+Oct 24 14:30 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 24 18:40 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 24 18:48 : config: option 'device' on line 14 was not recognized
+Oct 24 18:48 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 24 18:54 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 24 18:55 : config: option 'device' on line 14 was not recognized
+Oct 24 18:55 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 24 19:03 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 24 19:03 : config: option 'device' on line 14 was not recognized
+Oct 24 19:03 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 25 06:00 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 25 06:01 : config: option 'device' on line 14 was not recognized
+Oct 25 06:01 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 26 05:22 : config: option 'device' on line 14 was not recognized
+Oct 26 05:22 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 28 11:27 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 28 11:28 : config: option 'device' on line 14 was not recognized
+Oct 28 11:28 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 29 04:35 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 29 04:35 : config: option 'device' on line 14 was not recognized
+Oct 29 04:35 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 30 20:50 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 30 20:51 : config: option 'device' on line 14 was not recognized
+Oct 30 20:51 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 30 21:42 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 30 21:42 : config: option 'device' on line 14 was not recognized
+Oct 30 21:42 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Oct 31 10:01 : player: played "Machine Gun Kelly - title track.mp3"
+Oct 31 22:52 : config: option 'device' on line 14 was not recognized
+Oct 31 22:52 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 01 20:00 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 01 20:15 : config: option 'device' on line 14 was not recognized
+Nov 01 20:15 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 02 20:50 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 04 04:02 : config: option 'device' on line 14 was not recognized
+Nov 04 04:02 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 04 01:08 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 04 01:09 : config: option 'device' on line 14 was not recognized
+Nov 04 01:09 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 05 21:33 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 05 21:33 : config: option 'device' on line 14 was not recognized
+Nov 05 21:33 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 06 11:10 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 07 00:20 : config: option 'device' on line 14 was not recognized
+Nov 07 00:20 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 07 01:41 : config: option 'device' on line 14 was not recognized
+Nov 07 01:41 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 07 11:41 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 08 02:26 : config: option 'device' on line 14 was not recognized
+Nov 08 02:26 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 08 18:49 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 08 18:49 : config: option 'device' on line 14 was not recognized
+Nov 08 18:49 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 09 15:43 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 09 15:44 : config: option 'device' on line 14 was not recognized
+Nov 09 15:44 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 10 09:48 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 11 00:26 : config: option 'device' on line 14 was not recognized
+Nov 11 00:26 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 12 01:12 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 12 01:13 : config: option 'device' on line 14 was not recognized
+Nov 12 01:13 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 13 17:39 : config: option 'device' on line 14 was not recognized
+Nov 13 17:39 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 14 12:58 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 14 14:53 : config: option 'device' on line 14 was not recognized
+Nov 14 14:53 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 15 01:19 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 15 01:40 : config: option 'device' on line 14 was not recognized
+Nov 15 01:40 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 15 09:45 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 15 10:20 : config: option 'device' on line 14 was not recognized
+Nov 15 10:20 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 15 11:04 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 15 20:33 : config: option 'device' on line 14 was not recognized
+Nov 15 20:33 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+Nov 15 14:00 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 15 14:03 : config: option 'device' on line 14 was not recognized
+Nov 15 14:03 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Nov 15 14:17 : player: played "Machine Gun Kelly - title track.mp3"
+Nov 15 14:19 : config: option 'device' on line 14 was not recognized
+Nov 15 14:19 : server_socket: bind to '0.0.0.0:8000' failed (continuing anyway, because binding to '[::]:8000' succeeded): Failed to bind socket: Address already in use

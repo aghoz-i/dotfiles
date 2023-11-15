@@ -1,0 +1,25 @@
+#!/bin/bash
+BRIGHTNESS_FILE=/sys/class/backlight/amdgpu_bl0/brightness
+function send_notification() {
+	brightness=$(printf "%.0f\n" $(expr $(expr $(cat $BRIGHTNESS_FILE) - 1) / 25 \* 10))
+	dunstify -a "changebrightness" -u low -r 9991 -h int:value:"$brightness" -i "brightness-$1" "Brightness: $brightness%" -t 2000
+}
+
+case $1 in
+up)
+    if [[ $(expr $(cat $BRIGHTNESS_FILE)) -lt 251 ]]
+    then
+        NEW=$(expr $(cat $BRIGHTNESS_FILE) + 25)
+        echo $(($NEW > 251 ? 251 : $NEW)) > $BRIGHTNESS_FILE
+    fi
+	send_notification $1
+	;;
+down)
+    if [[ $(expr $(cat $BRIGHTNESS_FILE)) -gt 1 ]]
+    then
+        NEW=$(expr $(cat $BRIGHTNESS_FILE) - 25)
+        echo $(($NEW < 1 ? 1 : $NEW)) > $BRIGHTNESS_FILE
+        fi
+	send_notification $1
+	;;
+esac

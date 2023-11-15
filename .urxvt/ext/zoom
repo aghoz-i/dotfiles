@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my $font = "Menlo for Powerline";
+my $level = 1;
+
+sub on_user_command
+{
+	my ($self, $cmd) = @_;
+
+	if ($cmd eq "zoom:in") {
+		$level++;
+	} elsif ($cmd eq "zoom:out") {
+		$level-- if $level gt 1;
+	}
+
+	my $size = $level * 14;
+	$self->cmd_parse("\033]50;xft:${font}:pixelsize=${size}\007");
+}

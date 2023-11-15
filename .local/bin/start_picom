@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo "Starting Picom..."
+PICOM_CONF="$HOME/.config/i3/picom.conf"
+picom --config "$PICOM_CONF" > /dev/null 2>&1 &

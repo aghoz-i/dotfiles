@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/mnt/ntfs/WIN_D/Users/Administrator/Documents/Kuliah/Sem7/PMPL/TugasAutomatedTest/test-automation-exercise'
+let g:netrw_dirhist_9='/home/ghozi'
+let g:netrw_dirhist_8='/home/ghozi/.config/i3'
+let g:netrw_dirhist_7='/home/ghozi/Documents/mpd'
+let g:netrw_dirhist_6='/home/ghozi/.mpd/playlists'
+let g:netrw_dirhist_5='/home/ghozi/.config/i3'
+let g:netrw_dirhist_4='/home/ghozi/.config/systemd'
+let g:netrw_dirhist_3='/home/ghozi/.config/discordcanary/VideoDecodeStats'
+let g:netrw_dirhist_2='/home/ghozi/Documents/Kuliah/Semester3/PBP/bizzvest/home_page/migrations'
+let g:netrw_dirhist_1='/home/ghozi/Documents/Kuliah/Semester3/PBP/bizzvest/home_page/templates'

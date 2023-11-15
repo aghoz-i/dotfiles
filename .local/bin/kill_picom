@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "Killing Picom..."
+PICOM_PID=$(pgrep picom)
+echo $PICOM_PID
+kill $PICOM_PID 
