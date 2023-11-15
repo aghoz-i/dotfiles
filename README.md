@@ -15,6 +15,7 @@ scrot
 # Audio
 pipewire
 pamixer
+playerctl
 
 # Terminal
 urxvt
