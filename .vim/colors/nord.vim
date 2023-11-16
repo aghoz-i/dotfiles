@@ -139,14 +139,14 @@ function! s:hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   if a:guifg != ""
     exec "hi " . a:group . " guifg=" . a:guifg
   endif
+  if a:ctermbg != ""
+    exec "hi " . a:group . " ctermbg=" . a:ctermbg
+  endif
   if a:guibg != ""
     exec "hi " . a:group . " guibg=" . a:guibg
   endif
   if a:ctermfg != ""
     exec "hi " . a:group . " ctermfg=" . a:ctermfg
-  endif
-  if a:ctermbg != ""
-    exec "hi " . a:group . " ctermbg=" . a:ctermbg
   endif
   if a:attr != ""
     exec "hi " . a:group . " gui=" . a:attr . " cterm=" . substitute(a:attr, "undercurl", s:underline, "")

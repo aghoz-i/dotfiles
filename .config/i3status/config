@@ -11,40 +11,40 @@ general {
         colors = true
         interval = 1
         markup = pango
-        color_good = '#03b100'
-		color_degraded = '#c48300'
-		color_bad = '#ba0d00'
+        color_good = '#A3BE8C'
+		color_degraded = '#EBCB8B'
+		color_bad = '#BF616A'
 }
 
 # order += "ipv6"
 order += "wireless _first_"
 order += "ethernet _first_"
 order += "battery all"
-order += "disk /"
+# order += "disk /"
 order += "cpu_usage"
 order += "memory"
 order += "tztime local"
 #order += "cpu_usage"
 
 cpu_usage {
-        format = "<span background='#82ff80'> CPU </span><span background='#e5e9f0'> %usage </span>"
+        format = "<span background='#8FBCBB'><span color='#3B4252'></span></span><span background='#8FBCBB'>  </span><span background='#D8DEE9'><span color='#8FBCBB'></span> %usage </span><span background='#3B4252'><span color='#D8DEE9'></span></span>"
         degraded_threshold = 80
         max_threshold = 95
 }
     
 
 wireless _first_ {
-        format_up = "<span background='#5959af'>  </span><span background='#e5e9f0'> %essid (%quality) </span>"
-        format_down = "<span background='#5959af'>  </span><span background='#e5e9f0'> Disconnected </span>"
+        format_up = "<span background='#4C566A'><span color='#3B4252'></span></span><span background='#4C566A'>  </span><span background='#D8DEE9'><span color='#4C566A'></span> %essid (%quality) </span><span background='#3B4252'><span color='#D8DEE9'></span></span>"
+        format_down = "<span background='#4C566A'><span color='#3B4252'></span></span><span background='#4C566A'>  </span><span background='#D8DEE9'><span color='#4C566A'></span> Disconnected </span><span background='#3B4252'><span color='#D8DEE9'></span></span>"
 }
 
 ethernet _first_ {
-        format_up = "<span background='#7575c6'> E </span><span background='#e5e9f0'> %ip (%speed) </span>"
-        format_down = "<span background='#7575c6'> E </span><span background='#e5e9f0'> Disconnected </span>"
+        format_up = "<span background='#5E81AC'><span color='#3B4252'></span></span><span background='#5E81AC'>  </span><span background='#D8DEE9'><span color='#5E81AC'></span> %ip (%speed) </span><span background='#3B4252'><span color='#D8DEE9'></span></span>"
+        format_down = "<span background='#5E81AC'><span color='#3B4252'></span></span><span background='#5E81AC'>  </span><span background='#D8DEE9'><span color='#5E81AC'></span> Disconnected </span><span background='#3B4252'><span color='#D8DEE9'></span></span>"
 }
 
 battery all {
-        format = "<span background='#82ff80'>  </span><span background='#e5e9f0'> %status %percentage </span>"
+        format = "<span background='#B48EAD'><span color='#3B4252'></span></span><span background='#B48EAD'>  </span><span background='#D8DEE9'><span color='#B48EAD'></span> %status %percentage </span><span background='#3B4252'><span color='#D8DEE9'></span></span>"
         format_down = "No Battery"
         status_chr = "Charging"
         status_bat = "Battery"
@@ -53,22 +53,24 @@ battery all {
         path = "/sys/class/power_supply/BAT%d/uevent"
         last_full_capacity=true
         integer_battery_capacity=true
+        threshold_type = percentage
+        low_threshold = 45
 }
 
 disk "/" {
-        format = "<span background='#6be5cb'>  </span><span background='#e5e9f0'> %avail Free </span>"
+        format = "<span background='#D08770'><span color='#3B4252'></span></span><span background='#D08770'>  </span><span background='#D8DEE9'><span color='#D08770'></span> %avail Free </span><span background='#3B4252'><span color='#D8DEE9'></span></span>"
 }
 
 load {
-        format = "<span background='#72afff'> Load </span><span background='#e5e9f0'> %1min </span>"
+        format = "<span background='#EBCB8B'><span color='#3B4252'></span></span><span background='#EBCB8B'> Load </span><span background='#D8DEE9'><span color='#EBCB8B'></span> %1min </span><span background='#3B4252'><span color='#D8DEE9'></span></span>"
 }
 
 memory {
-        format = "<span background='#7cdcff'>  </span><span background='#e5e9f0'> %used used </span>"
+        format = "<span background='#A3BE8C'><span color='#3B4252'></span></span><span background='#A3BE8C'>  </span><span background='#D8DEE9'><span color='#A3BE8C'></span> %used used </span><span background='#3B4252'><span color='#D8DEE9'></span></span>"
         threshold_degraded = 1G
 }
 
 tztime local{
-        format = "<span background='#c7ff96'>  </span><span background='#e5e9f0'> %a %-d %b %H:%M:%S </span>"
+        format = "<span background='#B48EAD'><span color='#3B4252'></span></span><span background='#B48EAD'>  </span><span background='#D8DEE9'><span color='#B48EAD'></span> %a %-d %b %H:%M:%S </span>"
 }
 

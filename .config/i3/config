@@ -36,7 +36,7 @@ exec --no-startup-id nm-applet
 
 #Gaps and Window
 
-for_window [class="^.*"] border pixel 3
+for_window [class="^.*"] border pixel 0
 gaps inner 10
 # gaps inner 10
 # gaps inner all set 20
@@ -48,7 +48,7 @@ gaps inner 10
 
 # Color variables
 set $unfocused_border #72afff
-set $focused_border #82ff80
+set $focused_border #5E81AC
 
 # ! 1
 # *.color0:       #5959af
@@ -90,9 +90,9 @@ set $focused_border #82ff80
 # client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
 # client.background           #2f343f
 
-#                           class   border  backgr. text    indicator
-client.focused              #3584e4 #0e417e #d8dee8 #e5e9f0 #3584e4
-client.focused_inactive     #2f343f #2f343f #d8dee8 #2f343f #2f343f
+#class                      border  backgr. text    indicator
+client.focused              #5E81AC #5E81AC #d8dee8 #e5e9f0 #5E81AC
+client.focused_inactive     #2F343F #2F343F #d8dee8 #2f343f #2f343f
 client.unfocused            #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.urgent               #2f343f #2f343f #d8dee8 #2f343f #2f343f
 client.placeholder          #2f343f #2f343f #d8dee8 #2f343f #2f343f
@@ -119,7 +119,7 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -164,7 +164,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle; [tiling con_id=__focused__] border pixel 3; [floating con_id=__focused__] border normal
+bindsym $mod+Shift+space floating toggle; [tiling con_id=__focused__] border pixel 0; [floating con_id=__focused__] border normal
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -189,50 +189,50 @@ set $ws9 "9:"
 set $ws10 "10:"
 
 # switch to workspace
-# bindsym $mod+1 workspace number $ws1
-# bindsym $mod+2 workspace number $ws2
-# bindsym $mod+3 workspace number $ws3
-# bindsym $mod+4 workspace number $ws4
-# bindsym $mod+5 workspace number $ws5
-# bindsym $mod+6 workspace number $ws6
-# bindsym $mod+7 workspace number $ws7
-# bindsym $mod+8 workspace number $ws8
-# bindsym $mod+9 workspace number $ws9
-# bindsym $mod+0 workspace number $ws10
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
 
-bindsym $mod+1 workspace "1:"
-bindsym $mod+2 workspace "2:"
-bindsym $mod+3 workspace "3:"
-bindsym $mod+4 workspace "4:"
-bindsym $mod+5 workspace "5:"
-bindsym $mod+6 workspace "6:"
-bindsym $mod+7 workspace "7:"
-bindsym $mod+8 workspace "8:"
-bindsym $mod+9 workspace "9:"
-bindsym $mod+0 workspace "10:"
+# bindsym $mod+1 workspace "1:"
+# bindsym $mod+2 workspace "2:"
+# bindsym $mod+3 workspace "3:"
+# bindsym $mod+4 workspace "4:"
+# bindsym $mod+5 workspace "5:"
+# bindsym $mod+6 workspace "6:"
+# bindsym $mod+7 workspace "7:"
+# bindsym $mod+8 workspace "8:"
+# bindsym $mod+9 workspace "9:"
+# bindsym $mod+0 workspace "10:"
 
 # move focused container to workspace
-# bindsym $mod+Shift+1 move container to workspace number $ws1
-# bindsym $mod+Shift+2 move container to workspace number $ws2
-# bindsym $mod+Shift+3 move container to workspace number $ws3
-# bindsym $mod+Shift+4 move container to workspace number $ws4
-# bindsym $mod+Shift+5 move container to workspace number $ws5
-# bindsym $mod+Shift+6 move container to workspace number $ws6
-# bindsym $mod+Shift+7 move container to workspace number $ws7
-# bindsym $mod+Shift+8 move container to workspace number $ws8
-# bindsym $mod+Shift+9 move container to workspace number $ws9
-# bindsym $mod+Shift+0 move container to workspace number $ws10
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
 
-bindsym $mod+Shift+1 move container to workspace "1:"
-bindsym $mod+Shift+2 move container to workspace "2:"
-bindsym $mod+Shift+3 move container to workspace "3:"
-bindsym $mod+Shift+4 move container to workspace "4:"
-bindsym $mod+Shift+5 move container to workspace "5:"
-bindsym $mod+Shift+6 move container to workspace "6:"
-bindsym $mod+Shift+7 move container to workspace "7:"
-bindsym $mod+Shift+8 move container to workspace "8:"
-bindsym $mod+Shift+9 move container to workspace "9:"
-bindsym $mod+Shift+0 move container to workspace "10:"
+# bindsym $mod+Shift+1 move container to workspace "1:"
+# bindsym $mod+Shift+2 move container to workspace "2:"
+# bindsym $mod+Shift+3 move container to workspace "3:"
+# bindsym $mod+Shift+4 move container to workspace "4:"
+# bindsym $mod+Shift+5 move container to workspace "5:"
+# bindsym $mod+Shift+6 move container to workspace "6:"
+# bindsym $mod+Shift+7 move container to workspace "7:"
+# bindsym $mod+Shift+8 move container to workspace "8:"
+# bindsym $mod+Shift+9 move container to workspace "9:"
+# bindsym $mod+Shift+0 move container to workspace "10:"
 
 
 
@@ -273,17 +273,19 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+        font pango: Menlo for Powerline 11
         strip_workspace_numbers yes
+        tray_padding 2
         colors {
-            background #2f343f
-            statusline #2f343f
-            separator #4b5262
+            background #3B4252
+            statusline #3B4252
+            separator  #3B4252
 
             # colour of             border  background  text
-            focused_workspace       #e5e9f0 #0e417e     #e5e9f0
-            active_workspace        #333333 #2f343f     #d8dee8
-            inactive_workspace      #3a3a3b #2f343f     #d8dee8
-            # urgent_workspacei       #2f343f #ebcb8b     #2f343f
+            focused_workspace       #3B4252 #81A1C1     #434C5E
+            active_workspace        #3B4252 #e5e9f0     #4C566A 
+            inactive_workspace      #3B4252 #e5e9f0     #4C566A
+            urgent_workspace        #3B4252 #A3BE8C     #2E3440
         }
         status_command i3status
         # status_command exec /home/you/.config/i3status/script/mybar.sh
@@ -293,7 +295,7 @@ bar {
 
 # custom keybind ghozi 
 bindsym $mod+shift+x exec i3lock-blur
-bindsym $mod+p exec pcmanfm
+bindsym $mod+p exec xdg-open ~/
 bindsym --release Print exec export SCRTLOC="/home/ghozi/Pictures/Screenshots/$(date +%b%d-%H:%M:%S).png" && scrot $SCRTLOC && xclip -selection clipboard -t image/png -i $SCRTLOC
 bindsym --release shift+Print exec flameshot gui
 bindsym $mod+shift+s exec notify-send "System will turn off in less than a minute!" && /usr/sbin/shutdown now
@@ -302,7 +304,7 @@ bindsym $mod+shift+f exec systemctl suspend
 bindsym $mod+shift+p exec export ABCDEF="aloaloalo" && notify-send $ABCDEF
 bindsym $mod+Shift+t floating enable, sticky enable, resize set 590 px 333 px, move window to position 1320 px 737 px
 bindsym $mod+Shift+y sticky toggle
-# bindsym $mod+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show run -sidebar-mode -columns 3 -font 'Noto Sans 10'
+bindsym $mod+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show run -sidebar-mode -columns 3 -font 'Noto Sans 10'
 # Sreen brightness controls
 # bindsym XF86MonBrightnessUp exec export BRIGHTNESS=/sys/class/backlight/amdgpu_bl0/brightness && echo $(expr $(cat $BRIGHTNESS) + 20) > $BRIGHTNESS  # increase screen brightness
 # bindsym XF86MonBrightnessDown exec export BRIGHTNESS=/sys/class/backlight/amdgpu_bl0/brightness && echo $(expr $(cat $BRIGHTNESS) - 20) > $BRIGHTNESS # decrease screen brightness
@@ -323,13 +325,14 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # autostart
 exec_always playerctld daemon
-exec_always feh --bg-center ~/Pictures/wall.jpg ~/Pictures/wall.jpg &
+exec_always feh --bg-fill ~/Pictures/nord-lake.png ~/Pictures/nord-lake.png &
 exec /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 # exec ./$GHOZI/Application/cadmus/cadmus.AppImage
 exec polychromatic-tray-applet
 # exec diodon
 # exec compton
 exec picom --config /home/ghozi/.config/i3/picom.conf &
+exec xborders --border-rgba "#5E81AC" &
 exec xinput set-prop 'SYNA7DB5:00 06CB:CD41 Touchpad' 'libinput Tapping Enabled' 1
 exec xinput set-prop 'SYNA7DB5:00 06CB:CD41 Touchpad' 'libinput Natural Scrolling Enabled' 1
 exec blueman-applet
@@ -350,6 +353,7 @@ assign [class="TelegramDesktop"] $ws9
 assign [class="Pavucontrol"] $ws5
 assign [class="dota2"] $ws6
 assign [class="Pcmanfm"] $ws4
+assign [class="Nemo"] $ws4
 assign [class="Thunar"] $ws4
 assign [class="Lxtask"] $ws5
 assign [class="zoom"] $ws3
@@ -386,13 +390,16 @@ for_window [class="xdman-Main"] floating enable, border normal
 for_window [class="Honkers Launcher"] floating enable, border normal
 for_window [class="The Honkers Railway Launcher"] floating enable, border normal
 for_window [class="steam"] floating enable, border normal
-for_window [title="Steam"] floating disable, border pixel 3 
+for_window [title="Steam"] floating disable, border pixel 0 
 for_window [title="Steam Settings"] floating enable, border normal
+for_window [title="File Management Preferences"] floating enable, border normal
+for_window [title="Confirm"] floating enable, border normal
 for_window [title="Error"] floating enable, border normal
 for_window [title="Removable medium is inserted"] floating enable, border normal
 for_window [title="Maze Game"] floating enable, border normal
 for_window [class="fdm"] floating enable, border normal
 for_window [class="Free Download Manager"] floating enable, border normal
+for_window [class="Xdg-desktop-portal-gtk"] floating enable, border normal
 for_window [class="idman.exe"] floating enable, border normal
 for_window [class="jetbrains-studio"] floating enable, border normal
 for_window [class="Blueman-manager"] floating enable, border normal

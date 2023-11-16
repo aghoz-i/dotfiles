@@ -3,33 +3,22 @@
 " Author: Gerhard Gappmeier
 "
 
-" set UTF-8 encoding set enc=utf-8
-set fenc=utf-8
+set fenc=utf-8 " set UTF-8 encoding set enc=utf-8
 set termencoding=utf-8
-" disable vi compatibility (emulation of old bugs)
-set nocompatible
-" use indentation of previous line
-set autoindent
-" use intelligent indentation for C
-set smartindent
-" configure tabwidth and insert spaces instead of tabs
+set nocompatible " disable vi compatibility (emulation of old bugs)
+set autoindent " use indentation of previous line
+set smartindent " use intelligent indentation for C
 set tabstop=4        " tab width is 4 spaces
 set shiftwidth=4     " indent also with 4 spaces
 set expandtab        " expand tabs to spaces
-" wrap lines at 120 chars. 80 is somewaht antiquated with nowadays displays.
-set textwidth=1800
-" turn syntax highlighting on
-set t_Co=256
+set textwidth=1800 " wrap lines at 120 chars. 80 is somewaht antiquated with nowadays displays.
+set t_Co=256 " turn syntax highlighting on
 syntax on
-colorscheme monokai
-" turn line numbers on
-set number
-" highlight matching braces
-set showmatch
-" intelligent comments
-set comments=sl:/*,mb:\ *,elx:\ */
-" enable mouse support
-set mouse=a
+set number " turn line numbers on
+set showmatch " highlight matching braces
+set comments=sl:/*,mb:\ *,elx:\ */ " intelligent comments
+set mouse=a " enable mouse support
+colorscheme nord
 
 " Install OmniCppComplete like described on http://vim.wikia.com/wiki/C++_code_completion
 " This offers intelligent C++ completion when typing ‘.’ ‘->’ or <C-o>
@@ -43,22 +32,14 @@ set tags+=~/.vim/tags/qt4
 let g:DoxygenToolkit_authorName="John Doe <john@doe.com>"
 
 " SpawnTern function
-" To add a terminal at the bottom
 function SpawnTern()
-    " spawn terminal below
     bel term
-
-    " Decrease split size by 15 words
     15winc -
 endfunction
-
-" We bind the control+x keys to spawn the terminal
 noremap <c-x> :call SpawnTern()<CR>
-" Enhanced keyboard mappings
-"
+
 noremap <C-`> <C-W><C-J>
 noremap <C-1> <C-W><C-K>
-
 " in normal mode F2 will save the file
 nmap <F2> :w<CR>
 " in insert mode F2 will exit insert, save, enters insert again
@@ -76,19 +57,29 @@ map <S-F7> :make clean all<CR>
 " goto definition with F12
 map <F12> <C-]>
 map <C-o> :NERDTreeToggle<CR>
-" in diff mode we use the spell check keys for merging
-" if &diff
-"   ” diff settings
-"   map <M-Down> ]c
-"   map <M-Up> [c
-"   map <M-Left> do
-"   map <M-Right> dp
-"   map <F9> :new<CR>:read !svn diff<CR>:set syntax=diff buftype=nofile<CR>gg
-" else
-"   " spell settings
-"   :setlocal spell spelllang=en
-"   " set the spellfile - folders must exist
-"   set spellfile=~/.vim/spellfile.add
-"   map <M-Down> ]s
-"   map <M-Up> [s
-" endif
+" air-line
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'
+" airline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ''
